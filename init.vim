@@ -11,6 +11,6 @@ source $HOME/.config/nvim/config/config_telescope.vim
 source $HOME/.config/nvim/config/config_superTab.vim
 source $HOME/.config/nvim/config/config_multipleCursor.vim
 source $HOME/.config/nvim/config/config_lightLine.vim
-source $HOME/.config/nvim/config/config_codi.vim
+source $HOME/.config/nvim/config/config_prettier.vim
 
 

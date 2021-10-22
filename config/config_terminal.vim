@@ -10,10 +10,14 @@ set encoding=utf-8
 set showmatch
 set sw=2
 set relativenumber
+set autoindent
+set smartindent
 
 " Vim Script
+set colorcolumn=81
 colorscheme github_dark
 highlight Normal ctermbg=NONE
+set background=dark
 
 set laststatus=2
 set noshowmode

@@ -22,7 +22,7 @@ Plug 'alvan/vim-closetag'
 Plug 'tpope/vim-surround'
 
 " Autocompletado
-Plug 'sirver/ultisnips'
+"Plug 'sirver/ultisnips'
 Plug 'neoclide/coc.nvim', {'branch':'release'}
 "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Shougo/neco-syntax'  " Fuente general de auto completado
@@ -48,7 +48,8 @@ Plug 'easymotion/vim-easymotion'
 "Plug 'mhinz/vim-signify'
 Plug 'scrooloose/nerdcommenter'
 Plug 'yggdroot/indentline'
-Plug 'wakatime/vim-wakatime'
+"Plug 'wakatime/vim-wakatime'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
 call plug#end()
 
