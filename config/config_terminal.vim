@@ -1,23 +1,34 @@
 set number
+set relativenumber
+set numberwidth=3
+set colorcolumn=20
+
 set mouse=a
-set numberwidth=1
 set clipboard=unnamed
+
 syntax on
 set showcmd
 set ruler
+
 set cursorline
-set encoding=utf-8
+set encoding=UTF-8
 set showmatch
 set sw=2
-set relativenumber
+
 set autoindent
-set smartindent
+"set smartindent
 
 " Vim Script
-set colorcolumn=81
+set colorcolumn=100
+set cc=100
+
+" Theme
+let g:github_transparent="true"
 colorscheme github_dark
-highlight Normal ctermbg=NONE
-set background=dark
+
+" line number color
+highlight LineNr guibg=NONE guifg=#292d3e gui=bold
+highlight CursorLineNr guibg=NONE guifg=#a0a1a3 gui=bold
 
 set laststatus=2
 set noshowmode

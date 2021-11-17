@@ -12,5 +12,4 @@ source $HOME/.config/nvim/config/config_superTab.vim
 source $HOME/.config/nvim/config/config_multipleCursor.vim
 source $HOME/.config/nvim/config/config_lightLine.vim
 source $HOME/.config/nvim/config/config_prettier.vim
-
-
+"source $HOME/.config/nvim/config/config_transparent.vim
