@@ -1,18 +1,11 @@
-" testing
-nnoremap <Leader>t :TestNearest<CR> " Test mas cercano
-nnoremap <Leader>T :TestFile<CR> " Todos los test
-nnoremap <Leader>TT :TestSuite<CR> " Toda la suit
-
 " Split resize
 nnoremap <Leader>> 10<C-w>> " Redimencionar 
 nnoremap <Leader>< 10<C-w>< " Redimencionar
 
-" quick semi
-nnoremap <Leader>; $a<Esc> " ; al final de la linea
-
+" editor config basic
 nnoremap <Leader>w :w<CR> " Guardar
 nnoremap <Leader>q :q<CR> " Salir
- 
+
 " shorter commands
 cnoreabbrev tree NERDTreeToggle
 cnoreabbrev blame Gblame
@@ -45,9 +38,7 @@ map <leader>l :tabnext<cr>
 map <Leader>ob :Buffers<cr>
 
 " faster scrolling
-nnoremap <silent> nj 20<C-e>
-nnoremap <silent> nk 20<C-y>
+nnoremap <silent> nh 20<C-e>
+nnoremap <silent> nt 20<C-y>
 nmap <Leader>s <Plug>(easymotion-s2)
 
-" run current Files
-nnoremap <Leader>x :!node %<cr>
