@@ -1,6 +1,6 @@
 set number
 set relativenumber
-set numberwidth=3
+set numberwidth=5
 set colorcolumn=20
 
 set mouse=a

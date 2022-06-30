@@ -4,7 +4,7 @@
 let g:NERDTreeChDirMode=2
 
 " Abrir y cerrar 
-map <F2> :NERDTreeToggle<CR>
+map <Leader>- :NERDTreeToggle<CR>
 
 " Ui settings
 let NERDTreeQuitOnOpen=1 " Cerrar NERDTree al abrir un archivo
